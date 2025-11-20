@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { motion } from 'framer-motion'
+import Doodle3D from './Doodle3D'
 
 function useProgressBar() {
   const ref = useRef(null)
@@ -205,6 +206,11 @@ export default function MinimalHero() {
           <a href="#contact" className="hoverable magnetic px-5 py-3 rounded-[4px] border border-black text-sm font-medium hover:text-white hover:bg-black">
             Download Resume
           </a>
+        </div>
+
+        {/* 3D Doodle area */}
+        <div className="mt-12">
+          <Doodle3D />
         </div>
       </div>
 
