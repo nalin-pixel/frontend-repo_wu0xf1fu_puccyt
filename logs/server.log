@@ -3,9 +3,14 @@
 > vite
 
 
-  VITE v5.4.20  ready in 275 ms
+  VITE v5.4.20  ready in 255 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.35.163:3000/
-5:55:46 PM [vite] ✨ new dependencies optimized: framer-motion, lucide-react, @splinetool/react-spline
-5:55:46 PM [vite] ✨ optimized dependencies changed. reloading
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+4  |  
+5  |  /* Google Fonts */
+6  |  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;600&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7  |  
+8  |  :root {
